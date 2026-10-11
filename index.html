@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/letter.png">
+    <title>محمود & ريماس</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    
+
+    <!-- =========================
+         الظرف
+         ========================= -->
+
+    <section class="envelope-section">
+
+        <div class="envelope" id="envelope">
+
+            <div class="envelope-body">
+                <div class="envelope-fold left"></div>
+                <div class="envelope-fold right"></div>
+            </div>
+
+            <div class="envelope-top"></div>
+
+            <button
+                class="wax-seal"
+                id="openInvitation"
+                aria-label="فتح الدعوة"
+            >
+                <span class="letter-r">R</span>
+                <span class="letter-i">M</span>
+            </button>
+
+            <div class="open-text">
+                <div class="arabic-open">
+                    اضغط لفتح الدعوة
+                </div>
+
+                <div class="english-open">
+                    OPEN INVITATION
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         صفحة الدعوة
+         ========================= -->
+
+    <section
+        class="invitation-page"
+        id="invitationPage"
+    >
+
+        <div
+            class="floating-background"
+            id="floatingBackground"
+        >
+
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+
+            <span class="floating-spark">✦</span>
+            <span class="floating-spark">✦</span>
+            <span class="floating-spark">✧</span>
+            <span class="floating-spark">✦</span>
+            <span class="floating-spark">✧</span>
+
+        </div>
+
+
+        <!-- =========================
+             مقدمة الدعوة
+             ========================= -->
+
+        <div class="invitation-intro">
+
+            <div class="intro-decoration">
+                ✦
+            </div>
+
+            <p class="intro-small">
+                نتشرف بدعوتكم لحضور حفل زفاف
+            </p>
+
+            <h1 class="couple-names">
+                محمود & ريماس  
+            </h1>
+
+
+
+            <div class="intro-line"></div>
+
+            <p class="wedding-date">
+               · الجمعة · 16 · 10 · 2026 
+            </p>
+
+            <div class="scroll-hint">
+
+                <span>
+                    اسحب للتفاصيل
+                </span>
+
+                <span class="scroll-arrow">
+                    ↓
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             قسم عائلتا العروسين
+             ========================= -->
+
+        <section
+            class="love-section reveal-section"
+            id="loveSection"
+        >
+
+            <div class="section-ornament">
+                ✦
+            </div>
+
+            <div class="section-small">
+                بكل الحب
+            </div>
+
+            <div class="section-line"></div>
+
+            <h2 class="section-title">
+                عائلتا العروسين
+            </h2>
+
+
+            <div class="families-row">
+
+                <!-- عائلة العريس -->
+
+                <div class="family-card groom-card">
+
+                    <div class="family-symbol">
+                        ❦
+                    </div>
+
+                    <div class="family-role">
+                        عائلة العريس 
+                    </div>
+
+                    <div class="family-name">
+                        القصاص
+                    </div>
+
+                    <div class="family-line"></div>
+
+                </div>
+
+
+                <!-- الفاصل -->
+
+                <div class="family-divider">
+                    <span>♡</span>
+                </div>
+
+
+                <!-- عائلة العروس -->
+
+                <div class="family-card bride-card">
+
+                    <div class="family-symbol">
+                        ❦
+                    </div>
+
+                    <div class="family-role">
+                        عائلة العروس
+                    </div>
+
+                    <div class="family-name">
+                        عباس    
+                    </div>
+
+                    <div class="family-line"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Countdown Section -->
+<section class="countdown-section reveal-section" id="countdownSection">
+
+    <div class="countdown-frame">
+
+        <span class="frame-heart heart-1">♡</span>
+        <span class="frame-heart heart-2">♥</span>
+        <span class="frame-heart heart-3">♡</span>
+        <span class="frame-heart heart-4">♥</span>
+
+        <span class="frame-spark spark-1">✦</span>
+        <span class="frame-spark spark-2">✧</span>
+        <span class="frame-spark spark-3">✦</span>
+        <span class="frame-spark spark-4">✧</span>
+
+        <div class="countdown-ornament">✦ ✧ ✦ ✧</div>
+
+        <p class="countdown-small">نعد اللحظات حتى نلقاكم</p>
+
+        <div class="countdown-wrapper">
+
+            <div class="countdown-box">
+                <span id="days">00</span>
+                <small>Days</small>
+            </div>
+
+            <div class="countdown-box">
+                <span id="hours">00</span>
+                <small>Hours</small>
+            </div>
+
+            <div class="countdown-box">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+            </div>
+
+            <div class="countdown-box">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     DETAILS SECTION
+========================= -->
+
+<section class="details-section reveal-section" id="detailsSection">
+
+    <!-- FIXED STARS -->
+
+    <span class="details-star star-1">✦</span>
+    <span class="details-star star-2">✧</span>
+    <span class="details-star star-3">✦</span>
+    <span class="details-star star-4">✧</span>
+    <span class="details-star star-5">✦</span>
+    <span class="details-star star-6">✧</span>
+    <span class="details-star star-7">✦</span>
+    <span class="details-star star-8">✧</span>
+
+
+    <!-- TITLE OUTSIDE THE CARD -->
+
+    <div class="details-heading">
+
+        <div class="details-ornament">
+            ✦ ✧ ✦
+        </div>
+
+        <p class="details-small">
+            التفاصيل
+        </p>
+
+        <h2 class="details-title">
+            كل ما يهمكم
+        </h2>
+
+        <div class="details-line"></div>
+
+    </div>
+
+
+    <!-- BIG DARK MAROON CARD -->
+
+    <div class="details-content">
+
+        <div class="event-details">
+
+
+            <!-- DATE & TIME -->
+
+            <div class="event-item">
+
+                <div class="event-icon">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/>
+                        <path d="M8 13h3M8 17h3M14 13h2M14 17h2"/>
+                    </svg>
+
+                </div>
+
+                <p class="event-label">
+                    الموعد
+                </p>
+
+                <p class="event-time">
+                    16/10/2026  
+                </p>
+
+                <p class="event-location" style="font-size: 20px;">
+                    6:00 مساءً
+                </p>
+
+            </div>
+
+
+            <!-- LOCATION -->
+
+            <div class="event-item">
+
+                <div class="event-icon">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z"/>
+                        <circle cx="12" cy="9" r="2.5"/>
+                    </svg>
+
+                </div>
+
+                <p class="event-label">
+                    المكان
+                </p>
+
+                <p class="event-location">
+                    صالة عابدين
+                </p>
+
+                                <p class="event-location">
+                   النصيرات - صلاح الدين - مقابل شركة الحويحي
+                </p>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="details-bottom-ornament">
+        ♡
+    </div>
+
+</section>
+
+<!-- =========================
+     LOCATION SECTION
+========================= -->
+
+<section class="location-section reveal-section" id="locationSection">
+
+    <!-- FIXED STARS -->
+
+    <span class="location-star location-star-1">✦</span>
+    <span class="location-star location-star-2">✧</span>
+    <span class="location-star location-star-3">✦</span>
+    <span class="location-star location-star-4">✧</span>
+    <span class="location-star location-star-5">✦</span>
+    <span class="location-star location-star-6">✧</span>
+
+
+    <div class="location-content">
+
+        <!-- ORNAMENT -->
+
+        <div class="location-ornament">
+            ✦ ✧ ✦ ✧
+        </div>
+
+
+        <!-- SMALL TITLE -->
+
+        <p class="location-small">
+            الموقع
+        </p>
+
+
+        <!-- MAIN TITLE -->
+
+        <h2 class="location-title">
+            كيف تصلون إلينا
+        </h2>
+
+
+        <!-- LINE -->
+
+        <div class="location-line"></div>
+
+
+        <!-- LOCATION CARD -->
+
+        <div class="location-card">
+
+
+            <!-- ACCESS -->
+
+            <div class="location-item">
+
+                <div class="location-icon">
+
+                    <svg viewBox="0 0 24 24">
+
+                        <path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z"/>
+
+                        <circle
+                            cx="12"
+                            cy="9"
+                            r="2.5"
+                        />
+
+                    </svg>
+
+                </div>
+
+
+                <h3 class="location-heading">
+                    الوصول للقاعة
+                </h3>
+
+            </div>
+
+
+            <!-- DIRECTIONS -->
+
+            <div class="location-item">
+
+                <a
+                    href="https://maps.app.goo.gl/7H4Jf6wPt8ZXyVqJ7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="location-button"
+                >
+
+                    الموقع
+
+                    <span>←</span>
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="final-section reveal-section" id="finalSection">
+
+    <span class="final-star final-star-1">✦</span>
+    <span class="final-star final-star-2">✧</span>
+    <span class="final-star final-star-3">✦</span>
+    <span class="final-star final-star-4">✧</span>
+
+    <div class="final-content">
+
+        <div class="final-ornament">
+            ✦ ✧ ♡ ✧ ✦
+        </div>
+
+        <h2 class="final-title">
+            نتشرف بحضوركم
+        </h2>
+
+        <div class="final-line"></div>
+
+        <p class="final-date">
+            16/10/2026
+        </p>
+
+        <div class="final-hearts">
+            ♡ &nbsp; ♥ &nbsp; ♡
+        </div>
+
+    </div>
+
+</section>
+
+    </section>
+<audio id="weddingMusic" src="./music.mp3" loop preload="auto"></audio>
+
+<button id="musicButton" type="button" aria-label="تشغيل الموسيقى">
+    ♫ تشغيل الموسيقى
+</button>
+
+<script>
+    const music = document.getElementById("weddingMusic");
+    const musicButton = document.getElementById("musicButton");
+    const openButton = document.getElementById("openInvitation");
+
+    async function playMusic() {
+        try {
+            await music.play();
+            musicButton.textContent = "♫ إيقاف الموسيقى";
+        } catch (error) {
+            musicButton.textContent = "♫ اضغطي لتشغيل الموسيقى";
+        }
+    }
+
+    openButton.addEventListener("click", playMusic);
+
+    musicButton.addEventListener("click", async () => {
+        if (music.paused) {
+            await playMusic();
+        } else {
+            music.pause();
+            musicButton.textContent = "♫ تشغيل الموسيقى";
+        }
+    });
+
+    music.addEventListener("pause", () => {
+        musicButton.textContent = "♫ تشغيل الموسيقى";
+    });
+</script>
+
+<script src="script.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
